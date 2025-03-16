@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            The uncomfortable
+        </title>
+        <link rel="icon" type="img" href="favicon.png">
+    </head>
+    <body>
+        <center>
+            <a href="week2.html"><img src="The-unncomfortable-logo-01-01.png" alt="logo" width="300"></a>
+            <br><br>
+            <p>
+            <a href="https://www.theuncomfortable.com/news/" style="text-decoration:none" target="_blank">News</a> |
+            <a href="https://www.theuncomfortable.com/about/" style="text-decoration:none" target="_blank">About</a> |
+            <a href="https://www.theuncomfortable.com/exhibitions/" style="text-decoration:none" target="_blank">Exhibitions</a> |
+            <a href="https://www.theuncomfortable.com/contact/" style="text-decoration:none" target="_blank">Contact</a> |
+            <a href="#itemlist" style="text-decoration:none">Buy now!</a>
+            </p>
+            <br><br>
+            <img src="kstudiomain1_0.avif" alt="img1" width="500">
+            <br><br>
+            <h2>Order Products Form</h2><br>
+            <form method="POST" action="form_processing.html" id="itemlist" target="_blank">
+                <section >
+                    <p>
+                        <fieldset style="width: 500px">
+                            <legend>Enter your personal info</legend>
+                            <label for="firstName">First name:</label>
+                            <input type="text" name="firstName" id="firstName" required>
+                            <br><br>
+                            <label for="lastName">Last name:</label>
+                            <input type="text" name="lastName" id="lastName" required>
+                            <br><br>
+                            <label for="birthday">Day of Birth:</label>
+                            <input type="date" name="birthday" id="birthday" required>
+                        </fieldset>
+                    </p>
+                    <p>
+                        <fieldset style="width: 500px">
+                            <legend>Enter your shipping info</legend>
+                            <label for="address">Address:</label>
+                            <input type="text" name="address" id="address" required>
+                            <br><br>
+                            <label for="city">City:</label>
+                            <select name="city" id="city" required>
+                                <option>Ho Chi Minh City</option>
+                                <option>Ha Noi</option>
+                                <option>Da Nang</option>
+                            </select>
+                            <br><br>
+                            <label for="district">District:</label>
+                            <select name="district" id="district" required>
+                                <option>District 1</option>
+                                <option>District 2</option>
+                                <option>District 3</option>
+                            </select>
+                            <br><br>
+                            <label for="postCode">Postcode:</label>
+                            <input type="text" name="postCode" id="postCode" required>
+                        </fieldset>
+                    </p>
+                    <p>
+                        <fieldset style="width: 500px">
+                            <legend>Purchase Options</legend>
+                            <label for="select-product">Select product(s):</label>
+                            <select name="select-product" id="select-product" size="8" multiple>
+                                <option>Watering can</option>
+                                <option>Rain boots</option>
+                                <option>Hula hoop chair</option>
+                                <option>Sloppy fork</option>
+                                <option>Wide teaset</option>
+                                <option>Tiny ruler</option>
+                                <option>Toothbrush</option>
+                                <option>Glasses</option>
+                            </select>
+                            <br><br>
+                            <label for="amount">Amount:</label>
+                            <input type="number" name="amount" id="amount" min="0" max="10">
+                        </fieldset>
+                    </p>
+                    <input type="submit" value="Purchase!">
+                </section>
+            </form>
+            
+            <p><strong>&copy; Copyright 2025 by Tran Duc Thuan @ RMIT Vietnam | Made with &#x2665;&#xfe0f;</strong></p>
+        </center>
+    </body>
+</html>
